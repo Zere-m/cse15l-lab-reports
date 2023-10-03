@@ -1,2 +1,2 @@
 # This is a test
-**this is supposed to be in bold**
+**This is supposed to be in bold**
