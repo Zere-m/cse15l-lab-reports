@@ -4,13 +4,13 @@
 
 * The working directory was home when the command was run
 * Running the cd command with no argument meant returning/ staying in the home directory since there is no argument passed to it stating what directory to change to
-* The output is not an error, it simply does not do anything<br>
+* The output is not an error, it simply does not do anything
 
 
 ![Image](cd2.png) 
 * The working directory was lecture 1 after the command was run, before it was /home
 * Running the cd command with the absolute path to the lecture1 folder changed the directory to it because it was within the filesystem
-* The output is not an error, the command switches the current directory<br>
+* The output is not an error, the command switches the current directory
 
 
 ![Image](cd3.png) 
