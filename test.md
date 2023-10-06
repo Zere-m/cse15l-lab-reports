@@ -9,4 +9,7 @@ CD command:
 
 ![Image](LSone.png)
 
-* The working directory was home
+* The working directory was home throughout the commands
+* Running the command with no arguments meant listing the contents of the current directory which was home
+* Runing the command with a path to a directory listed the contents of that directory
+* Running the command with a path to a file listed/ returned the path itself
