@@ -13,3 +13,12 @@ CD command:
 * Running the command with no arguments meant listing the contents of the current directory which was home
 * Runing the command with a path to a directory listed the contents of that directory
 * Running the command with a path to a file listed/ returned the path itself
+* In the case with the file path, the argument did not have files or folders in it, resulting in an error and a returning of the path
+
+![Image](CATone.png)
+
+* The working directory was home throughout the three commands
+* Running the command with no arguments did not print anything, the terminal kept being paused until "Ctrl + D" was clicked
+* Running the command with a path to a directory printed out a confirmation of it as a directory
+* Running the command with a path to a file printed out the contents of that file
+* In the case of the directory path, the output might have been an error because the cat command is intended for files instead of directories
