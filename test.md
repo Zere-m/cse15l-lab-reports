@@ -1,5 +1,7 @@
 # Lab Report 1
+
 **CD command:**
+
 ![Image](cd1.png)
 
 * The working directory was home when the command was run
@@ -8,7 +10,7 @@
 
 
 ![Image](cd2.png) 
-* The working directory was lecture 1 after the command was run, before it was /home
+* The working directory was lecture 1 after the command was run before it was /home
 * Running the cd command with the absolute path to the lecture1 folder changed the directory to it because it was within the filesystem
 * The output is not an error, the command switches the current directory
 
@@ -18,6 +20,8 @@
 * Running the cd command with the absolute path to the en-us.txt file gave an error because it is not a directory
 * The output is an error because the path provided was to a file, which does not contain files and folders within it, meaning it is not a directory
 
+**LS command:**
+
 ![Image](ls1.png)
 
 * The working directory was home before and after the command was run
@@ -26,13 +30,15 @@
 
 ![Image](ls2.png)
 * The working directory was home before and after the command was run
-* Runing the command with a path to a directory listed the contents of that directory because a proper path was provided
+* Running the command with a path to a directory listed the contents of that directory because a proper path was provided
 * The output is not an error, it listed the files and folders under the given path
 
 ![Image](ls3.png)
 * The working directory was home before and after the command was run
 * Running the command with a path to a file listed/returning the path itself because it was not able to find any files or folders within the file
 * In the case of the file path, the argument did not have files or folders in it, resulting in an error and a return of the path
+
+**CAT command:**
 
 ![Image](cat1.png)
 * The working directory was home before and after the command was run
@@ -49,4 +55,4 @@ was not finding the contents of the file that was supposed to be given
 ![Image](cat3.png)
 * The working directory was home before and after the command was run
 * Running the command with a path to a file printed out the contents of that file
-* The output is not an error, contents of a file were printed as expected
+* The output is not an error, the contents of a file were printed as expected
