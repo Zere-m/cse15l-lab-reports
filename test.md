@@ -10,7 +10,7 @@
 
 
 ![Image](cd2.png) 
-* The working directory was lecture 1 after the command was run before it was /home
+* The working directory was "messages" after the command was run before it was /home
 * Running the cd command with the absolute path to the lecture1 folder changed the directory to it because it was within the filesystem
 * The output is not an error, the command switches the current directory
 
@@ -36,19 +36,19 @@
 ![Image](ls3.png)
 * The working directory was home before and after the command was run
 * Running the command with a path to a file listed/returning the path itself because it was not able to find any files or folders within the file
-* In the case of the file path, the argument did not have files or folders in it, resulting in an error and a return of the path
+* In the case of the file path, the argument did not have files or folders in it, so it just printed the path back with no error
 
 **CAT command:**
 
 ![Image](cat1.png)
 * The working directory was home before and after the command was run
 * Running the command with no arguments did not print anything, the terminal kept being paused until "Ctrl + D" was clicked because the cat command
-was not finding the contents of the file that was supposed to be given
-* The output is an error because it could not concatenate the contents of a file(), it was not given
+was not finding the contents of the file that was supposed to be given. Instead, because there was no file, it started reading from stdin.
+* This does not throw an error, however, it does not work as it is supposed to work when receiving a file as an argument.
 
 ![Image](cat2.png)
 * The working directory was home before and after the command was run
-* Running the command with a path to a directory printed out a confirmation of it as a directory because it was not able to print contents of the directory as it is not a file
+* Running the command with a path to a directory printed out a confirmation of it as a directory because it was not able to print the contents of the directory as it is not a file
 * The output is an error because a cat command expects to receive a file/ files not a path to a directory
   
 
