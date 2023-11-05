@@ -19,7 +19,8 @@
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
 ```
-//INSERTT PICTURE
+**Symptom:**
+![Image](ArrayTestsError.png)
 
 *Bug fixed: 
 **Original Code**
