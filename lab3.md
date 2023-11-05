@@ -1,5 +1,5 @@
 #Lab Report 3
-##Part 1
+#Part 1
 * Failure inducing input: array of 3 or more characters when tring to reverse the array
 ```java
  @Test
@@ -71,7 +71,7 @@ The original array was not properly reversed because the method directly modifie
 **reversed:**
 The issue was that the newArray was never filled with elements, so it was empty. The original code kept updating the old/provided array "arr". In addition to that, the method returned the "arr" array back instead of the newArray that was supposed to be created. The fix helped because it updated the newArray, returning it when the method was done.
 
-##Part 2
+#Part 2
 **find command**
 **Using -name**
 
