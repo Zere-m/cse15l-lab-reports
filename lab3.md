@@ -2,7 +2,7 @@
 **find command**
 **Using -name**
 
-![Image](find"*java".png)
+![Image](find "*java".png)
 *Using the command with "*java" indicates that the search that we are performing will be based on the file name(-name) and "*java" specifies that the file should end in "java". 
 The asterisk * represents any sequence of characters, so it will accurately display all files ending with "java", no matter what the preceeding characters were. This example searches 
 through the directory and gives a path to all files ending with "java"
@@ -13,11 +13,11 @@ only files that match "ArrayTest.java" exactly will be counted as found. It will
 
 **Using -type**
 
-![Image](find-type d.png)
+![Image](find -type d.png)
 *Using "-type d" tells find to find all the directories in the specified starting directory, which in this case is home/lab3. It returns the paths of all directories within 
 the lab3 folder/directory
 
-![Image](find-type empty.png)
+![Image](find -type empty.png)
 *Using "-type f -empty" tells find to find all the files that are empty in the current directory(lab3). The "f" specifies to only look for regular files, not directories. Paths to all files
 with no content are returned, in this case there were no empty files.
 
