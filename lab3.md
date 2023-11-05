@@ -1,4 +1,76 @@
 #Lab Report 3
+##Part 1
+* Failure inducing input: array of 3 or more characters when tring to reverse the array
+```java
+ @Test
+  public void testReverseInPlace2(){
+    int[] input = {10 ,20, 30};
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(new int[]{ 30,20,10}, ArrayExamples.reversed(input));
+    System.out.println(input);
+  }
+```
+* Successful input: array of 1 character when tring to reverse the array
+```java
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+//INSERTT PICTURE
+
+*Bug fixed: 
+**Original Code**
+```java
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+**Fixed Code**
+```java
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    int[] temp = new int[arr.length];
+    for(int i = 0; i<arr.length; i++){
+      temp[i] = arr[i];
+    }
+    
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = temp[arr.length - i - 1];
+    }
+  }
+
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+**reverseInPlace:**
+The original array was not properly reversed because the method directly modified the array without storing the original elements to reverse. The fix helped because we stores the original elements in the temporary array, so they can be referred to and put into the accurate index in our array, properly reversing it.
+
+**reversed:**
+The issue was that the newArray was never filled with elements, so it was empty. The original code kept updating the old/provided array "arr". In addition to that, the method returned the "arr" array back instead of the newArray that was supposed to be created. The fix helped because it updated the newArray, returning it when the method was done.
+
+##Part 2
 **find command**
 **Using -name**
 
