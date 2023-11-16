@@ -1695,7 +1695,6 @@ They explain that read(4), write(2), execute(1) can all be used to intepret an o
 ./911report/chapter-9.txt
 ./911report/chapter-3.txt
 ```
-for group or others. this command outputs all files within the directory that allow the owner to read and write, but does not allow that for others.
 
 Source for the above examples (-perm and -size): https://linux.die.net/man/1/find
 
