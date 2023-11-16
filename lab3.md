@@ -262,11 +262,13 @@ Source for above examples(-name and -type): https://www.redhat.com/sysadmin/linu
 **Using -size**
 
 *This command searches the lab3 directory for files that are exactly 4 kilobytes in size. It can be useful to use when looking for how much space each item in the directory takes up.
+
 ```java
 [user@sahara ~/docsearch/technical]$ find -size 4k
 .
 ./911report
 ```
+*This command searches the lab3 directory for files that have size in range: larger than 1 kilobyte & smaller than 5 kilobytes. It can be useful for looking for files in a size range to later perform tasks or delete if needed.
 
 ```java
 [user@sahara ~/docsearch/technical]$ find -size +1k -size -8k
@@ -275,7 +277,7 @@ Source for above examples(-name and -type): https://www.redhat.com/sysadmin/linu
 ./biomed/1471-2334-3-13.txt
 ./911report
 ```
-*This command searches the lab3 directory for files that have size in range: larger than 1 kilobyte & smaller than 5 kilobytes. It can be useful for looking for files in a size range to later perform tasks or delete if needed.
+
 
 **Using -perm**
 This deals with permissions, my source is this website, which explains how permissions work: https://www.grymoire.com/Unix/Permissions.html
