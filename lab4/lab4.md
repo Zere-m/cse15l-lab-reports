@@ -16,11 +16,9 @@ This downloaded the forked repository and created a directory of lab7 in my ieng
 **Step 6: Run the tests, demonstrating that they fail**
 ![Image](step6.png)
 To run the tests, I first opened the test.sh file and copied the commands one by one
-Exact keys pressed to compile: `<c><a><t><space><t><e><s><t><.><s><h><Enter>` then I selected the first line in the file `<command-c>
-<command-v><Enter>`
+Exact keys pressed to compile: `<c><a><t><space><t><e><s><t><.><s><h><Enter>` then I selected the first line in the file `<command-c><command-v><Enter>`
 This compiled the java files
-Exact keys pressed to run: `<c><a><t><space><t><e><s><t><.><s><h><Enter> `then I selected the second line in the file `<command-c>
-<command-v><Enter>`
+Exact keys pressed to run: `<c><a><t><space><t><e><s><t><.><s><h><Enter> `then I selected the second line in the file `<command-c><command-v><Enter>`
 This ran the tests and gave an error as an output because ListExamples.java has not been modified yet
 
 
