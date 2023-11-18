@@ -29,7 +29,7 @@ This ran the tests and gave an error as an output because ListExamples.java has 
 To edit the code file I opened it using vim and pressed the following keys:(43 down, 12 right, i, delete, 2, esc, :wq, enter)
 `<down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><right>`
 `<right><right><right><right><right><right><right><right><right><right><right><i><delete><2><esc><:><w><q><Enter>`
-The `:wq` saved the changed made to ListExamples.java
+The :wq saved the changed made to ListExamples.java
 
 **Step 8: Run the tests, demonstrating that they now succeed**
 ![Image](step8.png)
