@@ -2,7 +2,7 @@
 **Step 4: Log into ieng6**
 To log into ieng6, I typed "ssh cs15lfa23jw@ieng6.ucsd.edu" which produced this outcome: 
 
-The exact keys pressed were: <s><s><h><space><c><s><1><5><l><f><a><2><3><j><w><shift><@><i><e><n><g><6><.><u><c><s><d><.><e><d><u><Enter>
+The exact keys pressed were: `<s><s><h><space><c><s><1><5><l><f><a><2><3><j><w><shift><@><i><e><n><g><6><.><u><c><s><d><.><e><d><u><Enter>`
 This made sure I could login into my account.
 
 **Step 5: Clone your fork of the repository from your Github account (using the SSH URL)**
