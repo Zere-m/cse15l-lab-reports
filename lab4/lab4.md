@@ -50,7 +50,7 @@ The effects: Pressing the arrows allowed me to complete the process quickly, wit
 ![Image](step9.png)
 To stage all changes i used this command: `git add .` pressing the following keys: `<g><i><t><space><a><d><d><.><Enter>` 
 The effect of this was adding a change in the working directory to the staging area.
-To add a commit message i used this command: `git commit -m "fixed ListExamplesTests.java"`
+To add a commit message i used this command: `git commit -m "fixed ListExamplesTests.java"` pressing the following keys: `<g><i><t><space><c><o><m><m><i><t><space><-><m><"><f><i><x><e><d><space><L><i><s><t><E><x><a><m><p><l><e><s><T><e><s><t><s><.><j><a><v><a>`
 The effect of this was: captured a snapshot of the project's currently staged changes and added a commit message
 To push i used this command: `git push origin main` pressing keys: `<g><i><t><space><p><u><s><h><space><o><r><i><g><i><n><space><m><a><i><n><Enter>` which pushed the changes to github
 
