@@ -40,7 +40,7 @@ The contents of each file before fixing the bug<br />
 The full command line (or lines) you ran to trigger the bug<br />
 A description of what to edit to fix the bug <br /> 
 
-**Directory and file structure:**
+**Directory and file structure:**<br />
 lab7<br />
 -ListExamples.class<br />
 -ListExamples.java<br />
@@ -48,8 +48,8 @@ lab7<br />
 -StringChecker.class<br />
 -test.sh<br />
 -lib<br />
-  -hamcrest-core-1.3.jar<br />
-  -junit-4.13.2.jar<br />
+    -hamcrest-core-1.3.jar<br />
+    -junit-4.13.2.jar<br />
 
 **Contents before fixing the bug**<br />
 
