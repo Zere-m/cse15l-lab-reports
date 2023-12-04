@@ -52,8 +52,8 @@ lab7<br />
 -StringChecker.class<br />
 -test.sh<br />
 -lib<br />
-    --hamcrest-core-1.3.jar<br />
-    --junit-4.13.2.jar<br />
+   (in lib) --hamcrest-core-1.3.jar<br />
+   (in lib) --junit-4.13.2.jar<br />
 
 **Contents before fixing the bug**<br />
 
@@ -149,7 +149,8 @@ class ListExamples {
 }
 ```
 **ListExamplesTests.java**
-```import static org.junit.Assert.*;
+```
+import static org.junit.Assert.*;
 import org.junit.*;
 import java.util.*;
 import java.util.ArrayList;
