@@ -10,7 +10,8 @@ Note: Recompile with -Xlint:unchecked for details.
 which led to recompile with -Xlint, I found out that the unchecked operation was an unchecked conversion.
 I'm guessing there might be abother way to find how long the list is, but i'm not sure what that would be. As for the unchecked error, I've never gotten it before - it seems as if im properly initializing 
 an ArrayList. Please let me know what direction I should go in to fix these bugs, thank you! <br /> 
-
+![Image](error.png)
+![Image](recompile.png)
 
 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.) <br /> 
 
@@ -28,7 +29,9 @@ type inference, which basically says that your elements will be of String type. 
 There were two bugs, one of them is not putting angle brackets when declaring my List result. Because we are using generics, and we specified the type of the List to be String
 we needed to put the angle brackets to specify the type of the array as well. It is a better way to use generics and have a correct conversion.
 Another bug was that I was mistakenly using the .length() method intended for strings, instead of the .size() method intended for ArrayLists. Because the ArrayList class
-does not have a length() menthod, it was not able to find that symbol.
+does not have a length() menthod, it was not able to find that symbol. 
+![Image](correct.png)
+![Image](correctCode.png)
 
 4. At the end, all the information needed about the setup including:
 The file & directory structure needed
