@@ -29,7 +29,8 @@ type inference, which basically says that your elements will be of String type. 
 There were two bugs, one of them is not putting angle brackets when declaring my List result. Because we are using generics, and we specified the type of the List to be String
 we needed to put the angle brackets to specify the type of the array as well. It is a better way to use generics and have a correct conversion.
 Another bug was that I was mistakenly using the .length() method intended for strings, instead of the .size() method intended for ArrayLists. Because the ArrayList class
-does not have a length() menthod, it was not able to find that symbol. 
+does not have a length() menthod, it was not able to find that symbol. <br />
+
 ![Image](correct.png)
 ![Image](correctCode.png)
 
