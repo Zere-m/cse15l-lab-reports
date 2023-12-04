@@ -1,8 +1,8 @@
 # Lab report 5 #
-1.The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. 
+1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. 
 (Don’t actually make the post! Just write the content that would go in such a post) <br /> 
 
-**Student's post**
+**Student's post**<br />
 Hi there, I am running into some trouble with my lab7 code, ListExamples.java. It says that there is an unchecked conversion even though "result" is a list, and that the .length()
 symbol cannot be found. I am using the .length() function to find how long our list is, and I'm making "result" an ArrayList because it's useful to create arrays. The message at 
 the end gave me these messages : Note: ListExamples.java uses unchecked or unsafe operations.
@@ -12,9 +12,9 @@ I'm guessing there might be abother way to find how long the list is, but i'm no
 an ArrayList. Please let me know what direction I should go in to fix these bugs, thank you! <br /> 
 
 
-2.A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.) <br /> 
+2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.) <br /> 
 
-**TA's response**
+**TA's response**<br />
 Hello, it seems that you've mistaken the length() method for Strings and the size() method from the ArrayList class, that's what is causing the "cannot find symbol" error. The ArrayList class
 uses size() to provide the number of objects, while length() provides the number of characters in a String object. These can get confused since we often thing of an array as 
 having objects in a line, which can resemble different characters of a string. 
@@ -23,14 +23,14 @@ the same code with different inputs, so the list can have objects of any type yo
 type inference, which basically says that your elements will be of String type. Please try modifying the lines in your code to something like this: `List<String> result = new ArrayList<>();`
 <br /> 
 
-3.Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
+3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 
 There were two bugs, one of them is not putting angle brackets when declaring my List result. Because we are using generics, and we specified the type of the List to be String
 we needed to put the angle brackets to specify the type of the array as well. It is a better way to use generics and have a correct conversion.
 Another bug was that I was mistakenly using the .length() method intended for strings, instead of the .size() method intended for ArrayLists. Because the ArrayList class
 does not have a length() menthod, it was not able to find that symbol.
 
-4.At the end, all the information needed about the setup including:
+4. At the end, all the information needed about the setup including:
 The file & directory structure needed
 The contents of each file before fixing the bug
 The full command line (or lines) you ran to trigger the bug
@@ -180,8 +180,8 @@ To trigger the bug, I ran ```bash test.sh```
 
 **What to fix**
 
-To fix the bug, we need to edit the ListExamples.java file. Specifically: 
-lines 12 and 25: add ```<>``` when declaring, after new ArrayList
+To fix the bug, we need to edit the ListExamples.java file. Specifically: <br />
+lines 12 and 25: add ```<>``` when declaring, after new ArrayList<br />
 lines 27, 37, 41: change .length() to .size()
 
 ## Part2 ##
