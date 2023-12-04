@@ -48,8 +48,8 @@ lab7<br />
 -StringChecker.class<br />
 -test.sh<br />
 -lib<br />
-    -hamcrest-core-1.3.jar<br />
-    -junit-4.13.2.jar<br />
+    --hamcrest-core-1.3.jar<br />
+    --junit-4.13.2.jar<br />
 
 **Contents before fixing the bug**<br />
 
