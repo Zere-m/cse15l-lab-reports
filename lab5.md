@@ -41,15 +41,15 @@ The full command line (or lines) you ran to trigger the bug<br />
 A description of what to edit to fix the bug <br /> 
 
 **Directory and file structure:**
-lab7
--ListExamples.class
--ListExamples.java
--ListExamplesTests.java
--StringChecker.class
--test.sh
--lib
-  -hamcrest-core-1.3.jar
-  -junit-4.13.2.jar
+lab7<br />
+-ListExamples.class<br />
+-ListExamples.java<br />
+-ListExamplesTests.java<br />
+-StringChecker.class<br />
+-test.sh<br />
+-lib<br />
+  -hamcrest-core-1.3.jar<br />
+  -junit-4.13.2.jar<br />
 
 **Contents before fixing the bug**<br />
 
