@@ -5,8 +5,10 @@
 **Student's post**<br />
 Hi there, I am running into some trouble with my lab7 code, ListExamples.java. It says that there is an unchecked conversion even though "result" is a list, and that the .length()
 symbol cannot be found. I am using the .length() function to find how long our list is, and I'm making "result" an ArrayList because it's useful to create arrays. The message at 
-the end gave me these messages : Note: ListExamples.java uses unchecked or unsafe operations.
+the end gave me these messages : <br />
+``` Note: ListExamples.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
+```
 which led to recompile with -Xlint, I found out that the unchecked operation was an unchecked conversion.
 I'm guessing there might be abother way to find how long the list is, but i'm not sure what that would be. As for the unchecked error, I've never gotten it before - it seems as if im properly initializing 
 an ArrayList. Please let me know what direction I should go in to fix these bugs, thank you! <br /> 
